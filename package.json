@@ -1,0 +1,54 @@
+{
+  "name": "webpack_build",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack-hot": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "webpack-react": "webpack -d --watch",
+    "start": "node server/index.js"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinbece5/webpackBuild.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "html-webpack-plugin": "^3.2.0",
+    "react-hot-loader": "^4.6.3",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.2.5",
+    "axios": "^0.18.0",
+    "babel-preset-latest": "^6.24.1",
+    "bcrypt": "^3.0.4",
+    "body-parser": "^1.18.3",
+    "connect-mongo": "^2.0.3",
+    "connected-react-router": "^6.3.2",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "history": "^4.9.0",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "mongoose": "^5.4.19",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^4.4.0",
+    "react-spring": "=5.7.1",
+    "redux": "^4.0.1",
+    "redux-saga": "^1.0.2",
+    "styled-components": "^4.1.3"
+  }
+}
