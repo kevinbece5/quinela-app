@@ -1,0 +1,22 @@
+export const logos = {
+    66: "http://platform-static-files.s3.amazonaws.com/premierleague/badges/t1.svg",
+    65: "http://platform-static-files.s3.amazonaws.com/premierleague/badges/t43.svg",
+    64: "https://platform-static-files.s3.amazonaws.com/premierleague/badges/t14.svg",
+    73: "https://platform-static-files.s3.amazonaws.com/premierleague/badges/t6.svg",
+    57: "https://platform-static-files.s3.amazonaws.com/premierleague/badges/t3.svg",
+    61: "https://platform-static-files.s3.amazonaws.com/premierleague/badges/t8.svg",
+    76: "https://platform-static-files.s3.amazonaws.com/premierleague/badges/t39.svg",
+    346: "https://platform-static-files.s3.amazonaws.com/premierleague/badges/t57.svg",
+    563: "https://platform-static-files.s3.amazonaws.com/premierleague/badges/t21.svg",
+    338: "https://platform-static-files.s3.amazonaws.com/premierleague/badges/t13.svg",
+    1044: "https://platform-static-files.s3.amazonaws.com/premierleague/badges/t91.svg",
+    62: "https://platform-static-files.s3.amazonaws.com/premierleague/badges/t11.svg",
+    67: "https://platform-static-files.s3.amazonaws.com/premierleague/badges/t4.svg",
+    354: "https://platform-static-files.s3.amazonaws.com/premierleague/badges/t31.svg",
+    397: "https://platform-static-files.s3.amazonaws.com/premierleague/badges/t36.svg",
+    340: "https://platform-static-files.s3.amazonaws.com/premierleague/badges/t20.svg",
+    328: "https://platform-static-files.s3.amazonaws.com/premierleague/badges/t90.svg",
+    715: "https://platform-static-files.s3.amazonaws.com/premierleague/badges/t97.svg",
+    63: "https://platform-static-files.s3.amazonaws.com/premierleague/badges/t54.svg",
+    394: "https://platform-static-files.s3.amazonaws.com/premierleague/badges/t38.svg"
+}
