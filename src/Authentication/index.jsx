@@ -20,14 +20,14 @@ class Login extends React.Component {
     componentDidMount() {
         axios.get('/confirmLogin')
             .then((res) => {
-                this.props.history.push('/fixtures');
+                this.props.history.push('/standings');
             })
         console.log('LOGGED IN', this.props.loggedIn)
     }
 
     componentDidUpdate(prevProps, prevState) {
         if (!_.isEqual(prevProps.loggedIn, this.props.loggedIn)) {
-            this.props.history.push('/fixtures');
+            this.props.history.push('/standings');
         }
     }
 
@@ -54,7 +54,7 @@ class Login extends React.Component {
             password: this.state.password
         })
             .then((res) => {
-                this.props.history.push('/fixtures');
+                this.props.history.push('/standings');
             })
             .catch((err) => {
                 console.log('err', err)

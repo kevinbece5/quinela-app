@@ -7,7 +7,6 @@ export const Player = styled.div`
 `;
 
 export const PlayerName = styled.span`
-    width: 50px;
     font-size: 20px;
     margin-left: 20px;
 `;

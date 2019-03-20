@@ -37,6 +37,7 @@ class App extends React.Component {
     //         })
     // }
     componentDidMount() {
+        this.props.confirmLogin();
         axios.get('/confirmLogin')
             .catch((res) => {
                 this.props.history.push('/login');

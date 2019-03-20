@@ -93,3 +93,12 @@ export const TeamsContainer = styled.div`
     display:flex;
     flex:1;
 `
+
+export const SubmitButton = styled.button`
+    display: flex;
+    margin: auto;
+    padding: 4px 13px;
+    background: #182939;
+    border-radius: 7px;
+    color: #fff;
+`; 

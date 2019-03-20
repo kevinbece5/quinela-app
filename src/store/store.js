@@ -2,6 +2,8 @@ import { createBrowserHistory } from 'history'
 import { applyMiddleware, compose, createStore } from 'redux'
 import { routerMiddleware } from 'connected-react-router'
 import createRootReducer from './reducers'
+import logger from 'redux-logger'
+
 import createSagaMiddleware from 'redux-saga';
 import quinelaSagas from '../sagas';
 
@@ -15,7 +17,8 @@ function configureStore(preloadedState) {
         compose(
             applyMiddleware(
                 routerMiddleware(history), // for dispatching history actions
-                sagasMiddleware
+                sagasMiddleware,
+                logger
             ),
         ),
     )
